@@ -1,4 +1,4 @@
-![IMG-20220530-WA0017](./assignment_01/IMG-20220530-WA0017.jpg)
+![Profile Image](https://github.com/Ishani-Patel/data690_fall2022/blob/main/assignment_01/IMG-20220530-WA0017.jpg)
 ## Resume
 * **Name**- *Ishani Mayur Patel*
 * **Contact Number**- 4432519613
