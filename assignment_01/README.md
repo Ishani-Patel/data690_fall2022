@@ -1,4 +1,4 @@
-![IMG-20220530-WA0017](.\Users\ishan\Downloads\IMG-20220530-WA0017.jpg)
+![IMG-20220530-WA0017](assignment_01/IMG-20220530-WA0017.jpg)
 ## Resume
 * **Name**- *Ishani Mayur Patel*
 * **Contact Number**- 4432519613
