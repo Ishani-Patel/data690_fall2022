@@ -85,8 +85,69 @@ For dropping the columns permentaley we can do inplace value true for that colum
 Making new column from the existing columns
 >df['GDP Per Capita'] = df['GDP'] / df['Population']
 
+# Part 5
+The only thing you need to do is just use methods like isnull and fillna/dropna and pandas will take care of the rest.<br>
+Taking a look at the column, we can see that Pandas filled in the blank space with “NA”. Using the isnull() method, we can confirm that both the missing value and “NA” were recognized as missing values. Both boolean responses are True. <br>
+This is a simple example, but highlights an important point. Pandas will recognize both empty cells and “NA” types as missing values.<br>
+Usually, for a "categorical" type of field (like Sex, which only takes values of a discrete set ('M', 'F')), we start by analyzing the variety of values present. For that, we use the unique() method:
+>df['Sex'].unique()
 
+We can replace D with F
+>df['Sex'].replace('D', 'F')
 
+"duplicated" means "all the column values should be duplicates". We can customize this with the subset parameter:<br>
+You know that the single columns represent the values "year, Sex, Country and number of children", but it's all been grouped in the same column and separated by an underscore. Pandas has a convenient method named split that we can use in these situations:
+>df['Data'].str.split('_')
+
+#Part 6 
+we can give the title to any matpotlib *plt.title()*.<br>
+plt.plot(x,y)
+we can plot any line 
+>plt.plot(x, x ** 2), 
+plt.plot(x, -1 * (x ** 2))
+
+>set_xlabel() *we can label x axis*<br>
+axes.set_ylabel() *we can set y axis to any name*
+** linestyle='solid'
+**  linestyle='dashed'
+** linestyle='dashdot'
+** linestyle='dotted'
+<br>
+When we call the subplots() function we get a tuple containing a Figure and a axes element.<br>
+We can also define how many elements we want inside our figure. To do that we can set the nrows and ncols params.
+>plot_objects = plt.subplots(nrows=2, ncols=2, figsize=(14, 6))
+
+fig, ((ax1, ax2), (ax3, ax4)) = plot_objects
+
+plot_objects
+
+>plot(x,y)<br>
+scatter(x,y)<br>
+bar(x,height)<br>
+stem(x,y)<br>
+step(x,y)<br>
+stackplot(x,y)
+
+# Part 7
+When you want to work with a file, the first thing to do is to open it. This is done by invoking the open() built-in function.
+
+open() has a single required argument that is the path to the file and has a single return, the file object.
+
+The with statement automatically takes care of closing the file once it leaves the with block, even in cases of error.
+
+>filepath = 'btc-market-price.csv'
+
+with open(filepath, 'r') as reader:
+    print(reader)
+    
+ first method we'll learn is read_csv, that let us read comma-separated values (CSV) files and raw text (TXT) files into a DataFrame.
+ ** filepath: Path of the file to be read.
+ We can define a na_values parameter with the values we want to be recognized as NA/NaN. In this case empty strings '', ? and - will be recognized as null values.
+ df = pd.read_csv('btc-market-price.csv',
+                 header=None,
+                 na_values=['', '?', '-'])
+ We'll add that columns names using the names parameter.
+ Without using the dtype parameter pandas will try to figure it out the type of each column automatically. We can use dtype parameter to force pandas to use certain dtype.
 
 
 
