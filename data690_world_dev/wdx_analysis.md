@@ -1,4 +1,7 @@
+# Better Education !=  Better Employment
+
 - What is it that you are investigating/exploring/analyzing (provide sufficient background information)?
+  I am going to see 
 - Why is it important to you and/or to others?
 - What questions do you have in mind and would like to answer?
 - Where do you get the data and charts to help answer your questions (give references/credits)?  
