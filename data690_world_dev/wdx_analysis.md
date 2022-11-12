@@ -40,26 +40,29 @@ Project steps include:
 
 #### Some of the data insights from The World Development Explorer
 
-- School Enrollment Primary (Time-Series Analysis)
+##### School Enrollment Primary (Time-Series Analysis)
 ![School Enrollment Primary](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/timeseries_primary_enroll.png)
 
-- School Enrollment Secondary (Time-Series Analysis)
+##### School Enrollment Secondary (Time-Series Analysis)
 ![School Enrollment Secondary](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/timeseries_secondary_enroll.png)
 
-- School Enrollment Tertiary (Time-Series Analysis)
+##### School Enrollment Tertiary (Time-Series Analysis)
 ![School Enrollment Tertiary](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/timeseries_tertiary_enroll.png)
 
-- Gross Enrollment Ratio from Primary to Tertiary both Sexes (Time-Series Analysis)
+##### Gross Enrollment Ratio from Primary to Tertiary both Sexes (Time-Series Analysis)
 ![Gross Enrollment Ratio from Primary to Tertiary both Sexes](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/timeseries_primarytotertiary.png)
 
-- Gross Graduation Ratio for Primary both Sexes (Time-Series Analysis)
+##### Gross Graduation Ratio for Primary both Sexes (Time-Series Analysis)
 ![Gross Graduation Ratio for Primary](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/timeseries_graduation_ratio_total.png)
 
-- Gross Graduation Ratio for Primary Male (Time-Series Analysis)
+##### Gross Graduation Ratio for Primary Male (Time-Series Analysis)
 ![Gross Graduation Ratio for Primary](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/timeseries_graduation_ratio_male.png)
 
-- Gross Graduation Ratio for Primary Female (Time-Series Analysis)
+##### Gross Graduation Ratio for Primary Female (Time-Series Analysis)
 ![Gross Graduation Ratio for Primary](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/timeseries_graduation_ratio_female.png)
 
-- 2016 Gross Enrollment Ratio Primary to Tertiary (Bar-Chart Analysis)
+##### 2016 Gross Enrollment Ratio Primary to Tertiary (Bar-Chart Analysis)
 ![2016 Gross Enrollment Ratio Primary to Tertiary](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/time_series_2nd_2.png)
+
+##### Unemployment vs Gross Enrollment  (Scatter Plot Analysis)
+![Unemployment vs Gross Enrollment](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/Unemployment_VS_GrossEnrolmentRatio.png)
