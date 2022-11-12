@@ -63,5 +63,3 @@ Project steps include:
 
 - 2016 Gross Enrollment Ratio Primary to Tertiary (Bar-Chart Analysis)
 ![2016 Gross Enrollment Ratio Primary to Tertiary](https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/time_series_2nd_2.png)
-
-https://github.com/Ishani-Patel/data690_fall2022/blob/main/data690_world_dev/Charts/time_series_2nd_2.png
